@@ -1,0 +1,8 @@
+-- 02-a-0600
+
+mkdir -p os2018/practice/01
+cd home 
+mkdir dir1
+cd os2018/practice/01
+touch f1 f2 f3
+cp {f1,f2,f3} /home/dir
