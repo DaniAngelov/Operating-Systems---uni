@@ -1,0 +1,7 @@
+
+-- 02-a-0500
+
+mkdir -p practise-test/test1 
+cd practise-test  
+touch test.txt
+mv test.txt /home/passwd
