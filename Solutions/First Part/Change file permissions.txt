@@ -1,0 +1,4 @@
+
+cd /home/
+touch permissions.txt
+chmod u=r,g=wx,o=rx permissions.txt   
