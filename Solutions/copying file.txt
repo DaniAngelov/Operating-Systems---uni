@@ -1,3 +1,0 @@
--- 02-a-0100
-
- cp /etc/passwd /home/
