@@ -1,0 +1,8 @@
+-- 02-a-0601
+
+cd home
+mkdir dir2
+cd os2018/practice/01
+touch f2.txt
+mv f2.txt /home/dir2
+mv f2.txt numbers.txt
