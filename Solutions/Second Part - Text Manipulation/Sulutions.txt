@@ -213,3 +213,9 @@ cat Songs.txt | cut -f2 -d '-' | cut -f2 -d '(' | cut -f1 -d ')' | awk -F ',' '{
 
 find /etc -type f -exec du -a {} + | sort -rn | head -n 1
 find . -perm 644
+
+-- 03-b-9300
+
+cat emails.txt | egrep -v '[<#"]' | egrep -v '.email' | 
+grep -v 'c..1' | egrep '@' | grep -v '^@' | egrep -v 'email.@'
+ | egrep -v '@-'  | egrep -v '@example@' | egrep -v 'example..com'
