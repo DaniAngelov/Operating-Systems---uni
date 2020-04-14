@@ -34,4 +34,3 @@ END{print count}'
 ps -o pid,tty,cmd | tail -n 3 | awk '{if($2 == " ") print $3}' 
 | sort -u -k | uniq    
 
--- 04-b-9000 
