@@ -8,6 +8,6 @@ read -p "Enter directory: ( Pattern /directory ) " VAR
 if [ ! -d "${VAR}" ];then
        echo "This is not a directory! Please enter a valid directory name! "
 else
-        echo "List of directories : " $(find "${VAR}" type -d 2>/dev/null | wc -l)
-        echo "List of files : " $(find "${VAR}" type -f 2>/dev/null | wc -l)
+        echo "List of directories : " $(find "${VAR}" type -d -mindepth 1 2>/dev/null | wc -l)
+        echo "List of files : " $(find "${VAR}" type -f -mindepth 1 2>/dev/null | wc -l)
 fi
