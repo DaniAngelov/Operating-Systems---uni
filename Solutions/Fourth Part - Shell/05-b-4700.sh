@@ -13,10 +13,11 @@
 
 #$ ./nicenumber.sh 7632223 ,
 #7,632,223      
+
  if [ $# -lt 1 ]; then
         echo "Invalid number of arguments !"
         exit 1
-fi
+ fi
 
 DELIMITER=" "
 
