@@ -92,3 +92,20 @@ Shell | [05-b-3200](https://github.com/DaniAngelov/Operating-Systems---uni/blob/
 Shell | [05-b-3300](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-3300.sh)
 Shell | [05-b-3400](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-3400.sh)
 
+
+#### Exam Tasks
+
+Category| Challenge| Points  | Solution
+-------- | -------- | -------- | --------
+Exam Tasks | [Task 1](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Test%20Problems/exam-problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Test%20Problems/Solutions.md)
+Exam Tasks | [Task 2](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Test%20Problems/exam-problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Test%20Problems/Solutions.md)
+Exam Tasks | [Task 3](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Test%20Problems/exam-problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Test%20Problems/Solutions.md)
+Exam Tasks | [Task 4](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Test%20Problems/exam-problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Test%20Problems/Solutions.md)
+Exam Tasks | [Task 5](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Test%20Problems/exam-problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Test%20Problems/Solutions.md)
+Exam Tasks | [Task 6](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Test%20Problems/exam-problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Test%20Problems/Solutions.md)
+Exam Tasks | [Task 7](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Test%20Problems/exam-problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Test%20Problems/Solutions.md)
+Exam Tasks | [Task 8](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Test%20Problems/exam-problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Test%20Problems/Solutions.md)
+Exam Tasks | [Task 9](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Test%20Problems/exam-problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Test%20Problems/Solutions.md)
+Exam Tasks | [Task 10](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Test%20Problems/exam-problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Test%20Problems/Solutions.md)
+Exam Tasks | [Task 11](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Test%20Problems/exam-problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Test%20Problems/Solutions.md)
+Exam Tasks | [Task 12](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Test%20Problems/exam-problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Test%20Problems/Solutions.md)
