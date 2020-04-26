@@ -67,7 +67,7 @@ Text Manipulation | [03-b-9106](https://github.com/DaniAngelov/Operating-Systems
 Text Manipulation | [03-b-9300](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Second%20Part%20-%20Text%20Manipulation/TextManipulation.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Second%20Part%20-%20Text%20Manipulation/Sulutions.txt)
 
 
-#### Thiird Part - Process Managemt and Job Control
+#### Third Part - Process Managemt and Job Control
 
 Category| Challenge| Points  | Solution
 -------- | -------- | -------- | --------
