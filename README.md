@@ -65,3 +65,10 @@ Text Manipulation | [03-b-9104](https://github.com/DaniAngelov/Operating-Systems
 Text Manipulation | [03-b-9105](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Second%20Part%20-%20Text%20Manipulation/TextManipulation.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Second%20Part%20-%20Text%20Manipulation/Sulutions.txt)
 Text Manipulation | [03-b-9106](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Second%20Part%20-%20Text%20Manipulation/TextManipulation.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Second%20Part%20-%20Text%20Manipulation/Sulutions.txt)
 Text Manipulation | [03-b-9300](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Second%20Part%20-%20Text%20Manipulation/TextManipulation.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Second%20Part%20-%20Text%20Manipulation/Sulutions.txt)
+
+
+#### Thiird Part - Process Managemt and Job Control
+
+Category| Challenge| Points  | Solution
+-------- | -------- | -------- | --------
+Processes Management and Job Control| [03-a-0200](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Third%20Part%20-%20Processes/Process%20Management%20and%20Job%20Control.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Third%20Part%20-%20Processes/Processes.md)
