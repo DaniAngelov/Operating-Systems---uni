@@ -1,8 +1,8 @@
-### Shell
+## Shell
 
-###### FMI TASKS
+### FMI TASKS
 
-## First Part - File Management
+#### First Part - File Management
 
 Category| Challenge| Points  | Solution
 -------- | -------- | -------- | -------- 
