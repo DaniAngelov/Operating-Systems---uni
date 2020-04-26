@@ -26,12 +26,12 @@ PROCESSES:
 #### `top | grep "$(ps -e -o user | uniq | tail -n 1)" `
 
 -- 04-b-7000
-#### `ps -o drs,cmd | tail -n -3 | sort -k1 |
-#### awk 'BEGIN{counter=0} {if($2 == "root") counter+= $1} 
-#### END{print count}'`          
+#### `ps -o drs,cmd | tail -n -3 | sort -k1 |`
+#### `awk 'BEGIN{counter=0} {if($2 == "root") counter+= $1} `
+#### `END{print count}'`          
 
 -- 04-b-8000
 
-#### `ps -o pid,tty,cmd | tail -n 3 | awk '{if($2 == " ") print $3}' 
-#### | sort -u -k | uniq  `  
+#### `ps -o pid,tty,cmd | tail -n 3 | awk '{if($2 == " ") print $3}' ` 
+#### ` | sort -u -k | uniq `  
 
