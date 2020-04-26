@@ -1,5 +1,3 @@
--- 05-b-2800
-
 
 #!/bin/bash
 # 05-b-2800 solution
