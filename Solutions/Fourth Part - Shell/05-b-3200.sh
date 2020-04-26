@@ -9,5 +9,5 @@ if [ ! -d $var ];then
        echo "This is not a directory! Please enter a valid directory name! "
 else
         echo "List of directories and subdirectories: "
-        find ${var} type -d
+        find ${var} type -df
 fi
