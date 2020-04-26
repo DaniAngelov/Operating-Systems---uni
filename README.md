@@ -1,4 +1,4 @@
-## Shell
+## Shell (Bash)
 
 ### FMI TASKS
 
@@ -80,3 +80,15 @@ Processes| [04-b-6200](https://github.com/DaniAngelov/Operating-Systems---uni/bl
 Processes| [04-b-7000](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Third%20Part%20-%20Processes/Process%20Management%20and%20Job%20Control.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Third%20Part%20-%20Processes/Processes.md)
 Processes| [04-b-8000](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Third%20Part%20-%20Processes/Process%20Management%20and%20Job%20Control.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Third%20Part%20-%20Processes/Processes.md)
 Processes| [04-b-9000](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Third%20Part%20-%20Processes/Process%20Management%20and%20Job%20Control.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Third%20Part%20-%20Processes/Processes.md)
+
+#### Fourth Part - Shell Scripts
+
+Category| Challenge| Points  | Solution
+-------- | -------- | -------- | --------
+Shell | [05-b-2000](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Third%20Part%20-%20Processes/Process%20Management%20and%20Job%20Control.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-2000.sh)
+Shell | [05-b-2800](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Third%20Part%20-%20Processes/Process%20Management%20and%20Job%20Control.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-2800.sh)
+Shell | [05-b-3100](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Third%20Part%20-%20Processes/Process%20Management%20and%20Job%20Control.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-3100.sh)
+Shell | [05-b-3200](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Third%20Part%20-%20Processes/Process%20Management%20and%20Job%20Control.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-3200.sh)
+Shell | [05-b-3300](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Third%20Part%20-%20Processes/Process%20Management%20and%20Job%20Control.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-3300.sh)
+Shell | [05-b-3400](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Third%20Part%20-%20Processes/Process%20Management%20and%20Job%20Control.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-3400.sh)
+
