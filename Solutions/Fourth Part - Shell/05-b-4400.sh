@@ -36,3 +36,9 @@ if [ $# -eq 1 ]; then
         mkdir "${DEFAULT}"
         SECOND_DIRECTORY="${DEFAULT}"
 fi
+
+tar -zcvf "${SECOND_DIRECTORY}".tar.gz "${SECOND_DIRECTORY}"
+if [ $? -eq 0 ] 
+        echo "Archiving successful !" 
+fi
+        
