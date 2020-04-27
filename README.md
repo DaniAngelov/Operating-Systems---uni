@@ -98,6 +98,9 @@ Shell | [05-b-4500](https://github.com/DaniAngelov/Operating-Systems---uni/blob/
 Shell | [05-b-4600](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-4600.sh)
 Shell | [05-b-4700](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-4700.sh)
 Shell | [05-b-4800](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-4800.sh)
+Shell | [05-b-5500](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-5500.sh)
+Shell | [05-b-6600](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-6660.sh)
+Shell | [05-b-6800](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-6800.sh)
 
 
 #### Exam Tasks
