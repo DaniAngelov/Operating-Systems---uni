@@ -1,6 +1,8 @@
 #!/bin/bash
 
+#github.com/DaniAngelov
 # 05-b-4300
+
 #Напишете shell script, който по подаден като аргумент файл с map между <nickname> -> <реален username> и nickname, 
 #ще ви улесни да изпращате съобщения на хората.
 #
