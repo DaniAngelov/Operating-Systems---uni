@@ -19,7 +19,8 @@ USER_ID="${1}"
 while true
 do
         sleep 5
-        if [ who | grep "${USER_ID}" ]; then                                                                                           echo "This user is logged in! "
+        if [ who | grep "${USER_ID}" ]; then                                                                                          
+        echo "This user is logged in! "
                 exit 0
         fi
 done     
