@@ -11,7 +11,7 @@
 #$ ls .
 #f1 f2 f3 asdf asdf2
 ## asdf и asdf2 са еднакви по съдържание, но f1, f2, f3 са уникални
-#
+
 #$ ./rmdup .
 #$ ls .
 #f1 f2 f3 asdf
