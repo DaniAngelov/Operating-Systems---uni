@@ -6,7 +6,7 @@
 #Да се напише shell script, който генерира HTML таблица съдържаща описание на потребителите във виртуалката ви. Таблицата трябва да има:
 #- заглавен ред с имената нa колоните
 #- колони за username, group, login shell, GECKO field (man 5 passwd)
-#
+
 #Пример:
 #$ ./passwd-to-html.sh > table.html
 #$ cat table.html
