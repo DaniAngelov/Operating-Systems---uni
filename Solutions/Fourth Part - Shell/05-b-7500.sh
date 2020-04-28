@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#05-b-4600
+#05-b-7500
 #github.com/DaniAngelov
 
 #Напишете shell script guess, която си намисля число, което вие трябва да познате. 
