@@ -107,6 +107,11 @@ Shell | [05-b-7200](https://github.com/DaniAngelov/Operating-Systems---uni/blob/
 Shell | [05-b-7500](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-7500.sh)
 Shell | [05-b-7550](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-7550.sh)
 Shell | [05-b-7700](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-7700.sh)
+Shell | [05-b-7800](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-7800.sh)
+Shell | [05-b-8000](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-8000.sh)
+Shell | [05-b-9100](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-9100.sh)
+Shell | [05-b-9500](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-9500.sh)
+Shell | [05-b-9501](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-9501.sh)
 
 
 
