@@ -28,4 +28,4 @@ while read i;do
         mkdir "${i}" "${DESTINATION}"
         mv $(find "${SOURCE}" -type f -printf "%f \n" 2>/dev/null | grep "${i}") "${i}"                                                                                                                           
         done <<<$(echo "${EXTENSION}" | awk -F ' ' '{print $1}')
-~                                                          
+                                                          
