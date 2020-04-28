@@ -1,8 +1,8 @@
-## Shell (Bash)
+#  Linux Shell (Bash)
 
-### FMI TASKS
+## FMI TASKS
 
-#### First Part - File Management
+### First Part - File Management
 
 Category| Challenge| Points  | Solution
 -------- | -------- | -------- | -------- 
@@ -15,7 +15,7 @@ File Management | [02-a-2100](https://github.com/DaniAngelov/Operating-Systems--
 File Management | [02-a-4000](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/First%20part/Change%20permissions.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/First%20Part/Change%20file%20permissions.txt)
 
 
-#### Second Part - Text Manipulation
+### Second Part - Text Manipulation
 
 Category| Challenge| Points  | Solution
 -------- | -------- | -------- | -------- 
@@ -67,7 +67,7 @@ Text Manipulation | [03-b-9106](https://github.com/DaniAngelov/Operating-Systems
 Text Manipulation | [03-b-9300](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Second%20Part%20-%20Text%20Manipulation/TextManipulation.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Second%20Part%20-%20Text%20Manipulation/Sulutions.txt)
 
 
-#### Third Part - Process Managemt and Job Control
+### Third Part - Process Managemt and Job Control
 
 Category| Challenge| Points  | Solution
 -------- | -------- | -------- | --------
@@ -81,7 +81,7 @@ Processes| [04-b-7000](https://github.com/DaniAngelov/Operating-Systems---uni/bl
 Processes| [04-b-8000](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Third%20Part%20-%20Processes/Process%20Management%20and%20Job%20Control.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Third%20Part%20-%20Processes/Processes.md)
 Processes| [04-b-9000](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Third%20Part%20-%20Processes/Process%20Management%20and%20Job%20Control.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Third%20Part%20-%20Processes/Processes.md)
 
-#### Fourth Part - Shell Scripts
+### Fourth Part - Shell Scripts
 
 Category| Challenge| Points  | Solution
 -------- | -------- | -------- | --------
@@ -103,7 +103,7 @@ Shell | [05-b-6600](https://github.com/DaniAngelov/Operating-Systems---uni/blob/
 Shell | [05-b-6800](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-6800.sh)
 
 
-#### Exam Tasks
+### Exam Tasks
 
 Category| Challenge| Points  | Solution
 -------- | -------- | -------- | --------
