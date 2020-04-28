@@ -1,6 +1,5 @@
 #!/bin/bash  
 
-
 #05-b-4200 soluion
 #github.com/DaniAngelov
 
