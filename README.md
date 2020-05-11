@@ -1,5 +1,24 @@
 #  Linux Shell (Bash)
 
+## HackerRank Challenges
+
+### Bash
+
+Category| Challenge| Points  | Difficulty | Solution
+-------- | -------- | -------- | -------- | -------- 
+Bash | [Let's Echo](https://www.hackerrank.com/challenges/bash-tutorials-lets-echo/problem)| 1| Easy |[Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Bash/Let's%20Echo.sh)
+Bash | [Looping and Skipping](https://www.hackerrank.com/challenges/bash-tutorials---looping-and-skipping/problem)| 2| Easy | [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Bash/Looping%20and%20Skipping.sh)
+Bash | [A Personalized Echo](https://www.hackerrank.com/challenges/bash-tutorials---a-personalized-echo/problem)| 1|  Easy | [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Bash/A%20Personalized%20Echo.sh)
+Bash | [Looping with Numbers](https://www.hackerrank.com/challenges/bash-tutorials---looping-with-numbers/problem)| 2| Easy | [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Bash/Looping%20with%20Numbers.sh)
+Bash | [The World of Numbers](https://www.hackerrank.com/challenges/bash-tutorials---the-world-of-numbers/problem)| 2| Easy | [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Bash/The%20World%20of%20Numbers.sh)
+Bash | [Comparing Numbers](https://www.hackerrank.com/challenges/bash-tutorials---comparing-numbers/problem)| 3| Easy | [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Bash/Comparing%20Numbers.sh)
+Bash | [Getting started with conditionals](https://www.hackerrank.com/challenges/bash-tutorials---getting-started-with-conditionals/problem)| 3| Easy | [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Bash/Getting%20started%20with%20conditionals.sh)
+Bash | [More on Conditionals](https://www.hackerrank.com/challenges/bash-tutorials---more-on-conditionals/problem)| 3| Easy | [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Bash/More%20on%20Conditionals.sh)
+Bash | [Arithmetic Operations](https://www.hackerrank.com/challenges/bash-tutorials---arithmetic-operations/problem)| 3| Medium | [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Bash/Arithmetic%20Operations.sh)
+Bash | [Compute the Average](https://www.hackerrank.com/challenges/bash-tutorials---compute-the-average/problem)| 4| Medium | [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Bash/Compute%20the%20Average.sh)
+
+# -----------------------------------------------------------------------
+
 ## FMI TASKS
 
 ### First Part - File Management
