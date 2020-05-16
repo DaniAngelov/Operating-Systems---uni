@@ -8,10 +8,10 @@ if [ $# -ne 1 ]; then
         echo "Invalid number of arguments! "
         exit 1
 fi
-
-w | grep $1
-                                                                                                                        if [ $(w | grep "$1" | wc -l ) -ne 0 ]; then
-        echo "There is no such user!"                                                                                           exit 2
+                                                                                                                        
+if [ $(w | grep "$1" | wc -l ) -ne 0 ]; then                                                                                                                                                           
+        echo "There is no such user!"                                                                                           
+        exit 2
 fi
 
 USER="${1}"
@@ -37,6 +37,8 @@ else
 
         for i in "${USER_PROCESSES}"
         do
-                if [ $( echo "$i" | cut -d ' ' -f2) -gt "${AVG_TIME}" ]; then                                                                   kill "$i"
-                fi                                                                                                              done
+                if [ $( echo "$i" | cut -d ' ' -f2) -gt "${AVG_TIME}" ]; then                                                                  
+                kill "$i"
+                fi                                                                                                              
+                done
 fi
