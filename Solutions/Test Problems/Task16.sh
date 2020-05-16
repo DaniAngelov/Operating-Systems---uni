@@ -6,7 +6,8 @@
 
 
 if [ $# -ne 3 ]; then
-        echo "Invalid number of arguments! "                                                                                    exit 1
+        echo "Invalid number of arguments! "                                                                          
+        exit 1
 fi
 
 FILE="${1}"
