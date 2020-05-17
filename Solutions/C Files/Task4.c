@@ -1,6 +1,12 @@
 
 //  github.com/DaniAngelov
 
+/*
+        Task 4
+        Реализирайте команда cp, работеща с два аргумента, подадени като входни параметри
+
+*/
+
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/stat.h>
