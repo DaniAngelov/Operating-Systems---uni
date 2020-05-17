@@ -139,10 +139,10 @@ Shell | [05-b-9600](https://github.com/DaniAngelov/Operating-Systems---uni/blob/
 
 Category| Challenge| Points  | Solution
 -------- | -------- | -------- | --------
-Exam Tasks | [Task 0](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task0.c)
-Exam Tasks | [Task 1](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task1.c)
-Exam Tasks | [Task 2](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task2.c)
-Exam Tasks | [Task 3](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task3.c)
+C Files - Input and Output | [Task 0](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task0.c)
+C Files - Input and Output | [Task 1](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task1.c)
+C Files - Input and Output | [Task 2](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task2.c)
+C Files - Input and Output | [Task 3](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task3.c)
 
 ### Exam Tasks
 
