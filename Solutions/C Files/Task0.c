@@ -1,6 +1,11 @@
 
 //  github.com/DaniAngelov
 
+/*
+        Task0.c
+        Копирайте съдържанието на файл1 във файл2:
+*/
+
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/stat.h>
