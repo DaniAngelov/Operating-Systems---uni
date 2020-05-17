@@ -135,7 +135,7 @@ Shell | [05-b-9500](https://github.com/DaniAngelov/Operating-Systems---uni/blob/
 Shell | [05-b-9501](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-9501.sh)
 Shell | [05-b-9600](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-9600.sh)
 
-### C files
+### C Files - Input and Output
 
 Category| Challenge| Points  | Solution
 -------- | -------- | -------- | --------
