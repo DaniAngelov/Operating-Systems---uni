@@ -1,6 +1,11 @@
 
 //  github.com/DaniAngelov
 
+/*
+        Task 2
+        Реализирайте команда wc, с един аргумент подаден като входен параметър
+*/
+
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/stat.h>
