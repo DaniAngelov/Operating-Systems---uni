@@ -2,7 +2,7 @@
 //  github.com/DaniAngelov
 
 /*
-        Task0.c
+        Task 0
         Копирайте съдържанието на файл1 във файл2:
 */
 
