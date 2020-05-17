@@ -30,7 +30,7 @@ int main(int argc,char** argv)
                 if( c == '\n' )
                 {
                         count = count + 1;
-                                        }
+                }
 
                 write(1,&c,1);
                 if(count == 10)
