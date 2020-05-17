@@ -42,4 +42,5 @@ int main(int argc,char** argv)
         }
 
         printf("The file has %d lines, %d words and %d characters! ",lines,words,chars);
+        exit(0);
 }
