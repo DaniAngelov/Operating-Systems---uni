@@ -135,7 +135,14 @@ Shell | [05-b-9500](https://github.com/DaniAngelov/Operating-Systems---uni/blob/
 Shell | [05-b-9501](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-9501.sh)
 Shell | [05-b-9600](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/Fourth%20Part%20-%20Shell/ShellScripts.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/Fourth%20Part%20-%20Shell/05-b-9600.sh)
 
+### C files
 
+Category| Challenge| Points  | Solution
+-------- | -------- | -------- | --------
+Exam Tasks | [Task 0](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task0.c)
+Exam Tasks | [Task 1](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task1.c)
+Exam Tasks | [Task 2](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task2.c)
+Exam Tasks | [Task 3](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task3.c)
 
 ### Exam Tasks
 
