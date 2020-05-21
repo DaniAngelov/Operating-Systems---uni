@@ -142,7 +142,13 @@ Category| Challenge| Points  | Solution
 C Files - Input and Output | [Task 0](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task0.c)
 C Files - Input and Output | [Task 1](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task1.c)
 C Files - Input and Output | [Task 2](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task2.c)
+C Files - Input and Output | [Task 3](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task3.c)
 C Files - Input and Output | [Task 4](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task4.c)
+C Files - Input and Output | [Task 5](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task5.c)
+C Files - Input and Output | [Task 6](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task6.c)
+C Files - Input and Output | [Task 7](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task7.c)
+C Files - Input and Output | [Task 8](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task8.c)
+C Files - Input and Output | [Task 9](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/C%20problems.md)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task9.c)
 
 ### Exam Tasks
 
