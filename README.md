@@ -17,7 +17,7 @@ Bash | [More on Conditionals](https://www.hackerrank.com/challenges/bash-tutoria
 Bash | [Arithmetic Operations](https://www.hackerrank.com/challenges/bash-tutorials---arithmetic-operations/problem)| 3| Medium | [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Bash/Arithmetic%20Operations.sh)
 Bash | [Compute the Average](https://www.hackerrank.com/challenges/bash-tutorials---compute-the-average/problem)| 4| Medium | [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Bash/Compute%20the%20Average.sh)
 
-# -----------------------------------------------------------------------
+# ----------------------------------------------------------------------
 
 ## FMI TASKS
 
