@@ -82,7 +82,7 @@ int main(int argc,char** argv)
 
         struct rstruct_t rst;
 
-        while (read(fd1,&one,sizeof(one)) > 0 && read(fd2,&two,sizeof(two)))
+        while (read(fd1,&one,sizeof(one)) > 0 && read(fd2,&two,sizeof(two)) >0 )
         {
                 if( one != two)
                 {
