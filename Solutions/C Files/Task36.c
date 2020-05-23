@@ -63,7 +63,8 @@ int main(int argc,char** argv)
 {
         if(argc == 1)
         {
-                errx(1,"Invalid number of arguments!");
+               ReadFromFile(0, "STDIN");
+                exit(0);
         }
 
         int i = 1;
