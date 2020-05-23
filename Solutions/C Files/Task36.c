@@ -29,9 +29,9 @@ void ReadFromFile(int fd, const char* description)
                         if(newline)
                         {
                                 setbuf(stdout,NULL);
-                                fprintf(stdout,"%02d ",cnt);
+                                fprintf(stdout,"%02d ",counter);
                                 write(1,&c,sizeof(c));
-                                cnt++;
+                                counter++;
                                 newline = 0;
                         }
                         else
