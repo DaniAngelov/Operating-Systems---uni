@@ -158,6 +158,9 @@ C Files - Test Tasks | [Task 36](https://github.com/DaniAngelov/Operating-System
 C Files - Test Tasks | [Task 37](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task37.c)
 C Files - Test Tasks | [Task 38](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task38.c)
 C Files - Test Tasks | [Task 39](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task39.c)
+C Files - Test Tasks | [Task 40](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task40.c)
+C Files - Test Tasks | [Task 41](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task41.c)
+C Files - Test Tasks | [Task 42](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task42.c)
 
 ### Exam Tasks
 
@@ -196,5 +199,8 @@ Exam Tasks | [Task 36](https://github.com/DaniAngelov/Operating-Systems---uni/bl
 Exam Tasks | [Task 37](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task37.c)
 Exam Tasks | [Task 38](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task38.c)
 Exam Tasks | [Task 39](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task39.c)
+Exam Tasks | [Task 40](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task40.c)
+Exam Tasks | [Task 41](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task41.c)
+Exam Tasks | [Task 42](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task42.c)
 
 
