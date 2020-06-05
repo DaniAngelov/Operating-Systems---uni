@@ -6,7 +6,7 @@
         и при успешното ѝ изпълнение, извежда на стандартния изход името на командата.
 */
 
-include <err.h>
+#include <err.h>
 #include <stdlib.h>
 #include <unistd.h>
 
