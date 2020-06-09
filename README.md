@@ -49,10 +49,10 @@ Text Processing | ['Uniq' Command #1](https://www.hackerrank.com/challenges/text
 Text Processing | ['Uniq' Command #2](https://www.hackerrank.com/challenges/text-processing-in-linux-the-uniq-command-2/problem)| 1| Easy |[Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Text%20Processing/'Uniq'%20Command%20%232.sh)
 Text Processing | ['Uniq' Command #3](https://www.hackerrank.com/challenges/text-processing-in-linux-the-uniq-command-3/problem)| 1| Easy |[Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Text%20Processing/'Uniq'%20Command%20%233.sh)
 Text Processing | ['Uniq' Command #4](https://www.hackerrank.com/challenges/text-processing-in-linux-the-uniq-command-4/problem)| 1| Easy |[Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Text%20Processing/'Uniq'%20Command%20%234.sh)
-Text Processing | [Paste - 1](hhttps://www.hackerrank.com/challenges/paste-1/problem)| 2| Medium |[Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Text%20Processing/Paste%20-%201.sh)
-Text Processing | [Paste - 2](hhttps://www.hackerrank.com/challenges/paste-2/problem)| 2| Medium |[Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Text%20Processing/Paste%20-%202.sh)
-Text Processing | [Paste - 3](hhttps://www.hackerrank.com/challenges/paste-3/problem)| 2| Medium |[Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Text%20Processing/Paste%20-%203.sh)
-Text Processing | [Paste - 4](hhttps://www.hackerrank.com/challenges/paste-4/problem)| 2| Medium |[Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Text%20Processing/Paste%20-%204.sh)
+Text Processing | [Paste - 1](https://www.hackerrank.com/challenges/paste-1/problem)| 2| Medium |[Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Text%20Processing/Paste%20-%201.sh)
+Text Processing | [Paste - 2](https://www.hackerrank.com/challenges/paste-2/problem)| 2| Medium |[Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Text%20Processing/Paste%20-%202.sh)
+Text Processing | [Paste - 3](https://www.hackerrank.com/challenges/paste-3/problem)| 2| Medium |[Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Text%20Processing/Paste%20-%203.sh)
+Text Processing | [Paste - 4](https://www.hackerrank.com/challenges/paste-4/problem)| 2| Medium |[Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Text%20Processing/Paste%20-%204.sh)
 
 # ----------------------------------------------------------------------
 
