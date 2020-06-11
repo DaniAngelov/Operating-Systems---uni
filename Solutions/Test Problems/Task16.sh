@@ -28,8 +28,8 @@ if [ -z "${STRING1}" ]; then
         exit 4
 fi
 
-VAL1=$(egrep "^${STRING1}=" "${FILE}" | awk -F '=' '{print $2}' | tr -s ' ' | tr ' ' '\n' | sort )
-VAL2=$(egrep "^${STRING2}=" "${FILE}" | awk -F '=' '{print $2}' | tr -s ' ' | tr ' ' '\n' | sort )
+VAL1=$(egrep "^${STRING1}=" "${FILE}" | awk -F '=' '{print $2}' )
+VAL2=$(egrep "^${STRING2}=" "${FILE}" | awk -F '=' '{print $2}' )
 
 #echo "$VAL1" | tr -s ' ' | tr ' ' '\n' | sort
 #echo "-------"
