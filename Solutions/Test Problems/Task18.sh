@@ -3,8 +3,34 @@
 #Task18.sh
 #github.com/DaniAngelov
 
-if [ $# -ne 0 ]; then
-        echo "INVALID NUMBER OF ARGUMENTS! "
+MOST_RECENT=$(mktemp)
+
+while read line;do
+        USER=$(echo "$line" | cut -d ':' -f1)
+        HOMEDIR=$(echo "$line")  | cut -d ':' -f6)
 
 
-        find /home/ -printf "%u %f %TY-%Tm-%Td-%TH-%TM\n" | tail -n 1 | awk -F ' ' '{print $1,$2}'  
+        echo "$USER"
+        if [ -z "${HOMEDIR}" ]; then
+                echo "home dir does not exist"
+                exit 1
+        fi
+        if [ ! -d "${HOMEDIR}" ]; then
+                        echo "home dir not a directory"
+                exit 2
+        fi
+
+
+        FILE=$(find "${HOMEDIR}" -type f -printf "%T@ %f \n" | sort -t ' ' -k1  | tail -n 1)
+        if [ ! -z "${FILE}" ]; then
+                echo "${USER} ${FILE}" >> "${MOST_RECENT}"
+        fi
+
+done < <(cat /home/passwd)
+
+cat ${MOST_RECENT}
+echo "HERE"
+cat "${MOST_RECENT}" | sort -t ' ' -k2
+
+
+rm -- "${MOST_RECENT}"
