@@ -4,15 +4,29 @@
 #github.com/DaniAngelov
 
 
-if [ $(whoami) == "root" ];then
-        NOHOMEDIRS=$(cat /home/passwd | grep -v "home")
-        WITHHOMEDIRS=$(cat /home/passwd | grep "home")
-        if [ $(echo "${NOHOMEDIRS}" | wc -l) -gt 0 ] || [ -w $(echo "${WITHHOMEDIRS}" | cut -d ':' -f 6) ]
-        then
-                echo "${NOHOMEDIRS}"
-                echo "${WITHHOMEDIRS}"
+[ $(id -u) -eq 0 ] || exit 1
+
+while read line; do
+        USER=$(echo "${line}" | cut -d ':' -f1)
+        HOMEDIR=$(echo "${line}" | cut -d ':' -f6)
+
+        if [ -z "${HOMEDIR}" ]; then
+                echo "No home directory!"
         fi
-else
-        echo "You are not root user! "
-        exit 1
-fi
+
+        if [ ! -d "${HOMEDIR}" ];then
+                echo "Homedir exist but not a directory!"
+        fi
+
+        PERM=$(ls -ld "${HOMEDIR}" | awk '{print $1}')
+        OWNER=$(ls -ld "${HOMEDIR}" | awk '{print $3}')
+
+        if [ "${OWNER}" != "${USER}" ]; then
+                echo "User is not owner of his homedir"
+        fi
+
+        if [ "${PERM}" != "w" ]; then
+                echo "User can't write in "${HOMEDIR}""
+        fi
+
+done < <(cat /home/passwd)
