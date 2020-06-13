@@ -6,35 +6,24 @@
 
 
 if [ $# -ne 3 ]; then
-        echo "Invalid number of arguments! "                                                                          
+        echo "Invalid number of arguments"
         exit 1
 fi
 
-FILE="${1}"
-STRING1="${2}"
-STRING2="${3}"
-
-if [ ! -f "${FILE}" ] ; then
-        echo "Not a file! "
+if [ ! -f "${1}" ]; then
+        echo "First arg not a file"
         exit 2
-elif [ ! -r "${FILE}" ] ; then
-        echo "Not readable! "
+fi
+
+if [ -z "${2}" ] || [ -z "${3}" ]; then
+        echo "Strings empty"
         exit 3
 fi
 
+FILE="${1}"
+STR1=$(cat "${FILE}" | egrep "^$2=" | cut -d '=' -f2)
+STR2=$(cat "${FILE}" | egrep "^$3=" | cut -d '=' -f2)
 
-if [ -z "${STRING1}" ]; then
-        echo "There is a key with length 0 "
-        exit 4
-fi
+NEWSTR2=$(comm -13 <(echo "${STR1}" | tr -s ' ' | tr ' ' '\n' | sort) <(echo "${STR2}" | tr -s ' ' | tr ' ' '\n' | sort) | xargs)
 
-VAL1=$(egrep "^${STRING1}=" "${FILE}" | awk -F '=' '{print $2}' )
-VAL2=$(egrep "^${STRING2}=" "${FILE}" | awk -F '=' '{print $2}' )
-
-#echo "$VAL1" | tr -s ' ' | tr ' ' '\n' | sort
-#echo "-------"
-#echo "$VAL2" | tr -s ' ' | tr ' ' '\n' | sort
-
-TEMP=$(comm -13 <(echo "$VAL1" | tr -s ' ' | tr ' ' '\n' | sort) <(echo "$VAL2" | tr -s ' ' | tr ' ' '\n' | sort) | xargs)
-
-sed -i -e "s/^$3=$STRING2/$3=$TEMP/" $FILE
+sed -i -e "s/^$3=$STR2/$3=$NEWSTR2/" "${FILE}"
