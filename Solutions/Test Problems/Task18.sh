@@ -7,7 +7,7 @@ MOST_RECENT=$(mktemp)
 
 while read line;do
         USER=$(echo "$line" | cut -d ':' -f1)
-        HOMEDIR=$(echo "$line")  | cut -d ':' -f6)
+        HOMEDIR=$(echo "$line"  | cut -d ':' -f6)
 
 
         echo "$USER"
