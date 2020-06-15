@@ -34,3 +34,6 @@ while read line; do
 done < <(cat "${LINES}" | grep "^[0-9]\|^-[0-9]" | grep -v "\." | grep -v "[a-z][A-Z]")
 
 cat "${RES}" | sort -n | uniq
+
+rm -- "${LINES}"
+rm -- "${RES}"
