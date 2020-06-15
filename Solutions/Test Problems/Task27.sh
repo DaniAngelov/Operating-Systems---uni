@@ -3,7 +3,6 @@
 #Task27.sh
 #github.com/DaniAngelov
 
-#!/bin/bash
 
 if [ $# -ne 2 ]; then
         echo "Invalid args"
