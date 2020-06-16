@@ -4,19 +4,35 @@
 #github.com/DaniAngelov
 
 
+[ $(id -u) -eq 0 ] || exit 1
 
-if [ $(whoami) == "root" ]; then
+TOTALPR=0
+TOTALRSS=0
+MAXPROCESS=0
 
-#a)
-        MEM=$(ps aux  |  tr -s ' ' | cut -d ' ' -f1,4,6)
-        #echo "${MEM}"
-#b)
+while read user;do
 
-        while read line
-        do
-                MAXMEM=$(echo "${line}" | sort -rn -k2 | head -n 1 | cut -d ' ' -f2)
-                AVGMEM=$(echo "${line}" | awk -F ' ' '{cnt+=$2}{print cnt/2}')
-                if [ $("$AVGMEM" * 2 | bc) -lt "$MAXMEM" ]; then                                                                                echo "Too big process! "                                                                                               kill ${line}
-               fi                                                                                                       
-        done < <(echo "$MEM")
-fi
+        while read user2 pid rss;do
+                #echo "USER: $user2 PID: $pid RSS: $rss"
+                TOTALPR=$( expr $TOTALPR '+' 1)
+                TOTALRSS=$( expr $TOTALRSS '+' $rss)
+
+                if [ ${MAXPROCESS} -lt "${rss}" ];then
+                        MAXPROCESS=${rss}
+                fi
+
+        done < <(ps -u "${user}" -o user=,pid=,rss= | grep -v "root")
+
+        AVGMEMORY=$(expr ${TOTALRSS} '/' ${TOTALPR})
+
+        echo "USER: $user - TOTAL PROCESSES: $TOTALPR - TOTAL RSS: $TOTALRSS"
+        echo "MAX PROCESS: $MAXPROCESS"
+        if [ "${MAXPROCESS}" -gt $(expr 2 '*' $AVGMEMORY) ];then
+                kill -s SIGTERM "${pid}"
+                sleep 2
+                kill -s SIGKILL "${pid}"
+        fi
+
+        TOTALPR=0
+        TOTALRSS=0
+done < <(ps -e -o user= | sort | uniq | grep -v "root")
