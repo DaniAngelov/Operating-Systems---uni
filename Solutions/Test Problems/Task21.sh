@@ -25,8 +25,8 @@ while read user;do
 
         AVGMEMORY=$(expr ${TOTALRSS} '/' ${TOTALPR})
 
-        echo "USER: $user - TOTAL PROCESSES: $TOTALPR - TOTAL RSS: $TOTALRSS"
-        echo "MAX PROCESS: $MAXPROCESS"
+        #echo "USER: $user - TOTAL PROCESSES: $TOTALPR - TOTAL RSS: $TOTALRSS"
+        #echo "MAX PROCESS: $MAXPROCESS"
         if [ "${MAXPROCESS}" -gt $(expr 2 '*' $AVGMEMORY) ];then
                 kill -s SIGTERM "${pid}"
                 sleep 2
