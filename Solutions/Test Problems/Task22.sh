@@ -4,41 +4,47 @@
 #github.com/DaniAngelov
 
 
-if [ $# -eq 2 ]; then
+if [ $# -eq 2 ];then
+        FILE="${2}"
+        if [ ! -f "${FILE}" ] ;then
 
-        if [ ! -d "$1" ] ; then
-                echo "First Arg not a directory! "                                                                                      
-                exit 1                                                                                                          
-                fi
-
-        if [ ! -f "$2" ]; then
-                echo "Second arg not a file ! "
-                exit 2
-        fi
-
-        if [ ! -r "$2" ]; then
-                echo "File not readable! "
+                echo "SECOND arg not a file"
                 exit 3
         fi
 
-        DIR="${1}"
-        FILE="${2}"
+elif [ $# -lt 1 ];then
+        echo "Invalid args"
+        exit 1
 
-        SYMLINK=$(find "${DIR}" -type l | awk -F '/' '{print $NF}')
-        echo " "${SYMLINK}" -> "${FILE}""
-        echo "${SYMLINK}" >> "${FILE}"
-
-elif [ $# -eq 1 ] ; then
-
-        if [ ! -d "$1" ] ; then
-                echo "First Arg not a directory! "
-                exit 1
-        fi
-        DIR="${1}"
-
-        BROKENSYMS=$(find "${DIR}" -xtype l | wc -l)                                                                            
-        echo "Broken symlinks: "${BROKENSYMS}""                                                                         
-else
-        echo "Invalid number of arguments! "
-        exit 4
+elif [ $# -gt 2 ];then
+        echo "Invalid args"
+        exit 2
 fi
+
+DIR="${1}"
+
+if [ ! -d "${DIR}" ] ;then
+
+        echo "First arg not a dir"
+        exit 3
+fi
+
+
+        SYML=$(find "${DIR}" -type l -exec file {} \; | grep -v "broken" )
+        if [ $(echo "${SYML}" | wc -l) > 0 ]; then
+
+                RES=$(basename "${SYML}" | cut -d ' ' -f1,5 | sed 's/:/->/g')
+                if [ -z "${FILE}" ]; then
+                        echo "${RES}"
+                else
+                        echo "${RES}" >> "${FILE}"
+                fi
+        else
+                if [ -z "${FILE}" ]; then
+
+                        echo "${SYML}" | wc -l
+                else
+
+                        echo "${SYML}" | wc -l >> "${FILE}"
+                fi
+        fi
