@@ -3,42 +3,61 @@
 #Task17.sh
 #github.com/DaniAngelov
 
-
 if [ $# -ne 1 ]; then
-        echo "Invalid number of arguments! "
+        echo "Invalid args"
         exit 1
 fi
-                                                                                                                        
-if [ $(w | grep "$1" | wc -l ) -ne 0 ]; then                                                                                                                                                           
-        echo "There is no such user!"                                                                                           
-        exit 2
-fi
 
-USER="${1}"
+[ $(id -u) -eq 0 ] || exit 2
 
-if [ $(whoami) != "root" ]; then
-        echo "You are not the root user! "
-        exit 3
-else
-        #$(ps -elf | grep "${USER}" | wc)
-        for i in "$(ps -elf --no-header | cut -d ' ' -f3 | uniq -c)"
-        do
-        if [ $(echo "$i" | tr -s ' ' | cut -d ' ' -f2) -gt  $(ps -elf | grep "${USER}" | wc -l) ];then
-                echo "$i"
+USR="${1}"
+
+PRS=0
+FOO=$(ps -u "${USR}" | wc -l)
+
+#a)
+
+while read us;do
+
+        while read user pid;do
+                PRS=$(expr "${PRS}" '+' 1)
+
+        done < <(ps -u "${us}" -o pid | sort | grep -v "${USR}")
+
+        if [ ${PRS} -gt ${FOO} ]; then
+                echo "${US} has more processes than ${1} "
+        fi
+        PRS=0
+
+done < <(ps -e -o user | sort | uniq | tail -n +2)
+
+#b)
+ALLPR=0
+CNT=0
+
+while read user;do
+
+        while read user pid etimes;do
+                #echo "User : $user PID: $pid ETIMES: $etimes"
+                ALLPR=$(expr ${ALLPR} '+' ${etimes})
+                #echo "$ALLPR - ALLPR "
+                CNT=$(expr $CNT '+' 1)
+        done < <(ps -u "$user" -o user=,pid=,etimes= | sort | grep -v "${USR}")
+
+
+done < <(ps -e -o user | sort | uniq | tail -n +2)
+
+ALLPR=$( expr ${ALLPR} '/' ${CNT})
+#echo "${ALLPR}"
+
+#c)
+
+while read user pid etimes; do
+
+        if [ $etimes -gt $(expr 2 '*' ${ALLPR}) ];then
+                kill -s SIGTERM "$pid"
+                sleep 2
+                kill -s SIGKILL "$pid"
         fi
 
-        done
-
-        PROCESSES=$(ps -o user,pid,etimes | sort -k1)
-
-        AVG_TIME=$(echo "${PROCESSES}" | tr -s ' ' | awk -F '{cnt+=$3}{print cnt/2}')
-
-        USER_PROCESSES=$(ps -o pid,etimes | egrep "${USER}")
-
-        for i in "${USER_PROCESSES}"
-        do
-                if [ $( echo "$i" | cut -d ' ' -f2) -gt "${AVG_TIME}" ]; then                                                                  
-                kill "$i"
-                fi                                                                                                              
-                done
-fi
+done < <(ps -u "${USR}" -o user=,pid=,etimes=)
