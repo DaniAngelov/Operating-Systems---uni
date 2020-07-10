@@ -54,7 +54,7 @@ Text Processing | [Paste - 2](https://www.hackerrank.com/challenges/paste-2/prob
 Text Processing | [Paste - 3](https://www.hackerrank.com/challenges/paste-3/problem)| 2| Medium |[Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Text%20Processing/Paste%20-%203.sh)
 Text Processing | [Paste - 4](https://www.hackerrank.com/challenges/paste-4/problem)| 2| Medium |[Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/HackerRank%20Solutions/Text%20Processing/Paste%20-%204.sh)
 
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------
 
 ## FMI TASKS
 
