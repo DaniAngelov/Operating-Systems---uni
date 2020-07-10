@@ -263,5 +263,11 @@ Exam Tasks | [Task 39](https://github.com/DaniAngelov/Operating-Systems---uni/bl
 Exam Tasks | [Task 40](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task40.c)
 Exam Tasks | [Task 41](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task41.c)
 Exam Tasks | [Task 42](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/Task42.c)
+Exam Tasks | [Task 43](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/C%20pipes/Task43.c)
+Exam Tasks | [Task 44](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/C%20pipes/Task44.c)
+Exam Tasks | [Task 45](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/C%20pipes/Task45.c)
+Exam Tasks | [Task 47](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/C%20pipes/Task47.c)
+Exam Tasks | [Task 48](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Problems/C%20files/exam_problems.pdf)| -| [Solution](https://github.com/DaniAngelov/Operating-Systems---uni/blob/master/Solutions/C%20Files/C%20pipes/Task48.c)
+
 
 
